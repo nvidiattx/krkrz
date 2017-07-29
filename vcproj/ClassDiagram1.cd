@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="tTVPCrossFadeTransHandler" Collapsed="true">
+    <Position X="15.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAIAAABQAAQggIgAQAABAAAFAAAAABABFAhQI=</HashCode>
+      <FileName>C:\Users\nvidi\Source\Repos\krkrz3\visual\TransIntf.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iTVPDivisibleTransHandler" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAABAAABAAAAABAAAAAAA=</HashCode>
+      <FileName>C:\Users\nvidi\Source\Repos\krkrz3\visual\transhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

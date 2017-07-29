@@ -25,14 +25,15 @@
 #include "DShowException.h"
 
 #pragma comment( lib, "propsys.lib" )
-//#pragma comment( lib, "Mfplat.lib" )
-#pragma comment( lib, "Mfplat_vista.lib" )
-//#pragma comment( lib, "Mf.lib" )
-#pragma comment( lib, "Mf_vista.lib" )
-#pragma comment( lib, "Mfuuid.lib" )
+#pragma comment( lib, "Mfplat.lib" )
+//#pragma comment( lib, "Mfplat_vista.lib" )
+#pragma comment( lib, "mf.lib" )
+#pragma comment( lib, "mfuuid.lib" )
+//#pragma comment( lib, "Mf_vista.lib" )
+//#pragma comment( lib, "Mfuuid.lib" )
 //#pragma comment( lib, "d3d9.lib" )
 //#pragma comment( lib, "dxva2.lib" )
-//#pragma comment( lib, "evr.lib" )
+#pragma comment( lib, "evr.lib" )
 
 //----------------------------------------------------------------------------
 //! @brief	  	VideoOverlay MediaFoundationを取得する

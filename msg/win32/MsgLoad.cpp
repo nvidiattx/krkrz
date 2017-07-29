@@ -850,9 +850,9 @@ const int RESOURCE_IDS[NUM_MESSAGE_MAX] = {
 void TVPLoadMessage() {
 	if( IS_LOAD_MESSAGE ) return;
 	IS_LOAD_MESSAGE = true;
-	tjs_char buffer[MAX_MESSAGE_LENGTH];
+	tjs_char buffer[MAX_MESSAGE_LENGTH];         //wchar_t[1024]
 	HINSTANCE hInstance = ::GetModuleHandle(0);
-	for( int i = 0; i < NUM_MESSAGE_MAX; i++ ) {
+	for( int i = 0; i < NUM_MESSAGE_MAX; i++ ) {     // i < 417
 		int len = ::LoadString( hInstance, RESOURCE_IDS[i], buffer, MAX_MESSAGE_LENGTH );
 		if( len <= 0 ) {
 			TVPThrowExceptionMessage( TJS_W("Message Load Error!") );

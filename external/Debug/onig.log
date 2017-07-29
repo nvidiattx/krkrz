@@ -1,0 +1,56 @@
+﻿  unicode_fold3_key.c
+  unicode_fold2_key.c
+  unicode_fold1_key.c
+  unicode_unfold_key.c
+  sjis_prop.c
+  euc_jp_prop.c
+  cp1251.c
+  koi8_r.c
+  gb18030.c
+  big5.c
+  euc_kr.c
+  euc_tw.c
+  iso8859_16.c
+  iso8859_15.c
+  iso8859_14.c
+  iso8859_13.c
+  iso8859_11.c
+  iso8859_10.c
+  iso8859_9.c
+  iso8859_8.c
+  Generating Code...
+  Compiling...
+  iso8859_7.c
+  iso8859_6.c
+  iso8859_5.c
+  iso8859_4.c
+  iso8859_3.c
+  iso8859_2.c
+  iso8859_1.c
+  sjis.c
+  euc_jp.c
+  utf32_le.c
+  utf32_be.c
+  utf16_le.c
+  utf16_be.c
+  utf8.c
+  ascii.c
+  unicode.c
+  onig_init.c
+  regposerr.c
+  regposix.c
+  st.c
+  Generating Code...
+  Compiling...
+  regversion.c
+  regtrav.c
+  regsyntax.c
+  regenc.c
+  reggnu.c
+  regexec.c
+  regcomp.c
+  regext.c
+  regparse.c
+  regerror.c
+  Generating Code...
+  onig.vcxproj -> C:\Users\nvidi\Source\Repos\krkrz3\vcproj\lib\Win32\onig_s_d.lib

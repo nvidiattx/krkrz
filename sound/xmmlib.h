@@ -62,6 +62,7 @@
 #include <xmmintrin.h>
 #ifdef	_MSC_VER
 #include <emmintrin.h>	// if gcc is 3.4, this file need to include.
+#include <smmintrin.h>
 #endif
 
 #ifdef __GNUC__

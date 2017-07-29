@@ -32,7 +32,7 @@ void TVPInitCompatibleNativeFunctions()
 	for( tjs_int i = 0; i<n; i++ ) 	{
 		tTVPCompatibleNativeFunc * p = TVPCompatibleNativeFuncs + i;
 		HMODULE module = GetModuleHandle(p->Module);
-		if(module) *(p->Ptr) = (void*)GetProcAddress(module, p->Name);
+		if(module) *(p->Ptr) = static_cast<void*>(GetProcAddress(module, p->Name));
 	}
 }
 //---------------------------------------------------------------------------
